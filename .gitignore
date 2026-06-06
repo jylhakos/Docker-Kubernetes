@@ -1,0 +1,153 @@
+# Binary Files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+*.app
+*.class
+*.o
+*.obj
+*.a
+*.lib
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+.yarn-integrity
+dist/
+build/
+
+# Go
+*.test
+*.prof
+vendor/
+go.sum
+
+# Docker
+*.tar
+*.tar.gz
+*.zip
+.docker/
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+*-kubeconfig.yaml
+*.key
+*.crt
+*.pem
+
+# Cloud credentials and secrets
+*.json
+!package.json
+!tsconfig.json
+!cloudbuild.json
+*.p12
+*.pfx
+*.jks
+*.keystore
+private-key.json
+service-account.json
+credentials.json
+
+# Google Cloud
+.gcloud/
+.config/gcloud/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+out/
+target/
+*.war
+*.ear
+*.aar
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large binary assets
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.iso
+*.dmg
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Helm
+charts/*.tgz
+
+# Local development
+.local/
+scratch/
